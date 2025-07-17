@@ -5,10 +5,13 @@
 * {
   margin: 0;
   padding: 0;
+  color: #ffffff;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 html {
@@ -16,7 +19,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
 }
 
 /* TRANSITION */
@@ -24,6 +27,7 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+  color: #ffffff;
 }
 
 /* DESKTOP NAV */
@@ -31,6 +35,10 @@ a,
 nav,
 .nav-links {
   display: flex;
+}
+
+.menu-links li a{
+  color: #ffffff;
 }
 
 nav {
@@ -156,6 +164,12 @@ section {
   min-height: fit-content;
 }
 
+#projects2{
+  padding-top: 3px;
+  margin-top: 2rem;
+}
+
+
 .section-container {
   display: flex;
 }
@@ -178,6 +192,12 @@ section {
 
 .profile-pic {
   border-radius: 2rem;
+  box-shadow: 
+  0 0 1px #ffffff,
+  0 0 3px #ffffff,
+  0 0 6px #ffffff,
+  0 0 9px #ffffff,
+  0 0 10px #ffffff;
 }
 
 .section__text {
@@ -208,6 +228,16 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+.details-container.color-container{
+  background-color: #121212;
+  box-shadow: 
+  0 0 1px #ffffff,
+  0 0 3px #ffffff,
+  0 0 6px #ffffff,
+  0 0 9px #ffffff,
+  0 0 10px #ffffff;
 }
 
 /* ICONS */
@@ -275,6 +305,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  color: #ffffff;
 }
 
 .about-details-container {
